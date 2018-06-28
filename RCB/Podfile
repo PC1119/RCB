@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'RCB' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    
+    # Pods for RCB
+    pod 'AFNetworking'
+    pod 'TZImagePickerController'  #照片视频选择器
+    pod 'MJRefresh'     #上下滑动刷新
+    pod 'MJExtension'   #解析
+    pod 'SVProgressHUD'
+    pod 'SDWebImage'
+    pod 'PGDatePicker'
+    pod 'IQKeyboardManager'
+    
+    target 'RCBTests' do
+        inherit! :search_paths
+        # Pods for testing
+    end
+    
+    target 'RCBUITests' do
+        inherit! :search_paths
+        # Pods for testing
+    end
+    
+end

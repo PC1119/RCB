@@ -1,0 +1,6 @@
+framework module Pods_RCB {
+  umbrella header "Pods-RCB-umbrella.h"
+
+  export *
+  module * { export * }
+}
